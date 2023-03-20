@@ -22,7 +22,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 2vw 10%;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ body {
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 2vw;
     color: #fff;
     text-decoration: none;
     font-weight: 600;
@@ -41,11 +41,11 @@ body {
 
 .navbar a {
     display: inline-block;
-    font-size: 18px;
+    font-size: 1vw;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: 2.25vw;
     transition: .3s;
     opacity: 0;
     animation: slideTop .5s ease forwards;
@@ -64,15 +64,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px 10% 0;
+    padding: 5vw 10% 0;
 }
 
 .home-content {
-    max-width: 600px;
+    max-width: 40vw;
 }
 
 .home-content h3 {
-    font-size: 32px;
+    font-size: 2vw;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -80,7 +80,7 @@ body {
 }
 
 .home-content h3:nth-of-type(2) {
-    margin-bottom: 30px;
+    margin-bottom: 2vw;
     animation: slideTop 1s ease forwards;
     animation-delay: .7s;
 }
@@ -90,7 +90,7 @@ body {
 }
 
 .home-content h1 {
-    font-size: 56px;
+    font-size: 4vw;
     font-weight: 700;
     margin: -3px 0;
     opacity: 0;
