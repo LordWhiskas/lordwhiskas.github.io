@@ -18,6 +18,8 @@ console.log('Viewport width:', viewportWidth);
 // Select the button element using its ID
 // Select the anchor element using its ID
 if (viewportWidth > 1000){
-    document.getElementById("home_img").style.visibility = "visible";
     document.getElementById("home_img_prev").remove();
+}
+else {
+    document.getElementById("home_img").remove();
 }
