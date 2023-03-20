@@ -24,6 +24,15 @@
     </header>
 
     <section class="home">
+        <div class="home-img"id="home_img_prev">
+            <img srcset="Home_photo.png 160w,
+             Home_photo.png 240w,
+             Home_photo.png 400w"
+                 sizes="(max-width: 1080px) 200px,
+            (max-width: 240px) 220px,
+            400px"
+                 src="Home_photo.png" alt="Elva dressed as a fairy">
+        </div>
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Kyryl Zuiev</h1>
@@ -33,10 +42,10 @@
                 <a href="https://www.instagram.com/kyryl_zuiev_/" style="--i:9;"><i class='bx bxl-instagram-alt'></i></a>
                 <a href="https://www.linkedin.com/in/kyryl-zuiev-3b477026a" style="--i:10;"><i class='bx bxl-linkedin'></i></a>
             </div>
-            <a href="Document-untitled.pdf" class="btn">Download CV</a>
+            <a href="Document-untitled.pdf" id="cv" class="btn">Download CV</a>
         </div>
 
-        <div class="home-img">
+        <div class="home-img" style="visibility: hidden" id="home_img">
             <img srcset="Home_photo.png 160w,
              Home_photo.png 240w,
              Home_photo.png 400w"
