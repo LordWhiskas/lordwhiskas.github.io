@@ -74,7 +74,7 @@ body {
         display: flex;
         justify-content: flex-start; /* Align content to the top */
         align-items: center;
-        padding: 10vh 10% 0; /* Adjust top padding to control the position */
+        padding: 17vh 10% 0; /* Adjust top padding to control the position */
         flex-direction: column; /* Stack items vertically */
     }
 
